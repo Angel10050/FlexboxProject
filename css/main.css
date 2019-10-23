@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+        background: #BFC7D3;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    .padre{
+        display:flex;
+        flex-flow: column nowrap;
+    }
+    .margen-interno {
+        padding: 0 0px 0 10px;
+    }
+        .header {
+            background: url(https://oneminddharma.com/wp-content/uploads/2018/07/mindfulness-meditation.jpg);
+            background-position: center;
+            background-attachment: contain;
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            height: 631px;
+            justify-content: space-between;
+            font-family: 'Acme', sans-serif;
+        }
+        .texto-principal {
+            height: 580px;
+            display: flex;
+            /* align-items: center; */
+        }
+            .dere{
+                display: flex;
+                align-items: flex-end;
+            }
+            .menu {
+                background: rgba(0, 0, 0, 0.411);
+                display: flex;
+                height: 100%;
+                align-items: center;
+                border-left: 1px solid rgba(255,255,255,.5);
+                border-radius: 20px 0px 0px 20px;
+            }
+            .logo {
+                margin-top: 20px;
+                letter-spacing: 20px;
+                font-weight: bolder;
+            }
+                .logo a {
+                    color: white;
+                    font-size: 45px;
+                    margin-left: 25px;
+                }
+                    .logo a:hover{
+                        color: #343434
+                    }
+                .nav{
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 65px;
+                }
+                .nav a {
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 60px 20px 8px;
+                    letter-spacing: 4px;
+                }
+                    
+                    .nav a:hover{
+                        color:#343434; 
+                    }
+                .social{          
+                    flex: 1 1 auto;
+                    display: flex;
+                }
+                    .social a {
+                        font-size: 18px;
+                        color: white;
+                        padding: 0 5px;
+                    }
+                    .social a:hover{
+                        color: #343434;
+                    }
+            .texto-principal{
+                height: 580px;
+                display: flex;
+                align-items: center;
+            }  
+            h1 {
+                font-family: serif;
+                font-size: 27px;
+                color: #ffffff;
+                font-weight: 300;
+                text-align: center;
+                line-height: 1.6;
+                padding: 0px 90px;
+                margin-top: 130px;
+            }
+            
+            
+        .section{
+            background: #a1aebf52;
+            display: flex;
+    
+        }
+            .articulos{
+                background: #a1aebf52;
+                flex: 2 1 auto;
+                display:flex;
+                flex-flow: row wrap;
+            }
+              
+            .article {
+                color: #444444;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin: 10px 10px 0 0px;
+                flex: 1 1 25%;
+                background: rgba(255, 255, 255, 0.98);
+                border-radius: 18px 18px 0px 0px;
+                font-family: 'Comfortaa';
+            }
+            .article img {
+                width: 100%;
+                border-radius: 16px 17px 0px 0px;
+                height: 200px;
+            }
+                .article a {
+                    color: #ffffff;
+                    font-size: 14px;
+                    padding: 10px 10px 10px 14px;
+                    background: #243441;
+                    margin: 8px 130px;
+                    display: inline-block;
+                    border-radius: 1px 54px;
+                }
+                .article a:hover{
+                    background: #546cc3;
+                }
+                .article p{
+                    text-align: justify;
+                    padding: 5px 10px 5px 10px;
+                }
+                
+                h3{
+                    color:#ffffff;
+                    font-size: 13px;
+                    padding: 10px 10px;
+                    margin-top: -80px;
+                }
+                h2{
+                    font-size: 22spx;
+                    text-transform: uppercase;
+                    padding: 0px 0 20px 10px;
+                    color: #ffffff;
+                }
+
+              .navegacion {
+                background: #243441;
+                flex: 1 1 100%;
+                margin: 0px 10px 0 0px;
+                border-radius: 0px 0px 230px 230px;
+            }
+                .navegacion a{
+                    color:#ffffff;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+            .aside{
+                flex: 1 1 auto;
+                margin: 10px 10px 10px 0;
+            }  
+            
+                h4{
+                    background: #243441;
+                    color: #ffffff;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    border-radius: 18px 18px 0px 0px;
+                }
+                .publicidad {
+                    margin: 10px;
+                    background: #fdfefe;
+                    border-radius: 18px;
+                    text-align: justify;
+                    height: 97%;
+                }
+                .publicidad p {
+                    padding: 10px;
+                    padding-top: 16px;
+                    font-size: 30px;
+                    text-align: left;
+                    color: #433f53;
+                    line-height: 42px;
+                }
+                    .publicidad img{
+                        width: 220px;
+                    }
+        .footer{
+            background: #452046;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            height: 5%;
+        }
+            .pie{
+                text-align: center;
+                width: 300px;
+            }
+                .pie a{
+                    color:#ffffff;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+    @media all and (max-width:1064px){
+        .section{
+            flex-direction: column;
+        }
+        .menu{
+            flex-direction: column;
+            height: 100%;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        .aside img{
+           width: 100%;
+        }
+        .publicidad {
+            margin: 8px;
+            background: #fdfefe;
+            border-radius: 18px;
+            text-align: justify;
+            height: 468px;
+            width: 97%;
+        }
+        .publicidad p {
+            font-size: 25px;
+            text-align: center;
+            color: #433f53;
+            line-height: 31px;
+        }
+        .publicidad img {
+            width: 100%;
+            height: 67%;
+        }
+    
+    }
+    @media all and (max-width:772px){
+        h2{
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        h1{
+            font-size: 18px;
+        }
+      
+    }
+    @media all and (max-width:600px){
+        .articulos{
+            flex-direction: column;
+        }
+        h1{
+            font-size: 15px;
+        }
+        
+    }
+   
+    @media all and (max-width:320px){
+        .aside{
+            flex-direction: column;
+        }
+        
+    }
+@media all and (max-width:570px){
+    .publicidad p {
+        font-size: 19px;
+        text-align: center;
+        color: #433f53;
+        line-height: 23px;
+    }
+}
+@media all and (max-width:619px){
+    .header {
+        background: url(https://oneminddharma.com/wp-content/uploads/2018/07/mindfulness-meditation.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 631px;
+        justify-content: space-between;
+        font-family: 'Acme', sans-serif;
+        width: 474px;
+    }
+    .menu  {
+        background: rgba(0, 0, 0, 0.411);
+        display: flex;
+        flex-flow: row nowrap;
+        height: 60px;
+        width: 100%;
+        align-items: center;
+        border-top: 1px solid rgba(255,255,255,.5);
+        border-radius: 0px;
+}
+
+.nav a{
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    padding-top: 0px;
+}
+.logo {
+    margin-top: 20px;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+}
+@media all and (max-width:472px){
+    .article {
+         width: 447px;
+    }
+    .publicidad{
+        width: 432px;
+    }
+    .footer{
+        width: 470px;
+    }
+}
